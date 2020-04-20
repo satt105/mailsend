@@ -1,1 +1,1 @@
-from mailsend import mailsend
+from mailsend import Mailsend

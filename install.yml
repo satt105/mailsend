@@ -3,3 +3,8 @@
   gather_facts: no
   connection: local
   become: true
+
+  tasks:
+    - name: "Install pip dependencies"
+      debug:
+          msg: "I do nothing at all"
