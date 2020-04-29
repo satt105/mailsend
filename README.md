@@ -18,6 +18,7 @@ kalliope install --git-url https://github.com/satt105/mailsend.git
 | MDP         | yes      | string                          |it is recommended to hide passwords in variables rather than data in each synapse|
 | Toadd       | yes      | string                          |the recipient's email address    |
 | message     | yes      | string                          |the content of the mail          |
+| subject     | yes      | string                          | the subjects of the mail
 ## Notes
 - The module is a beta version under development, it is possible that the production of errors
 - The module is developed by the community for the kalliope project. It can be modified and updated
